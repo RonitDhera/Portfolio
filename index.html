@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ronit's PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1259eeb239.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>        
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class=" fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Ronit</span> <br>Dhera from Pakistan</h1>
+      </div>
+    </div>
+
+  </div>
+  <!-- about -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/WhatsApp Image 2023-06-20 at 3.04.35 AM.jpeg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hello! I'm Ronit, a passionate web developer with a strong desire to create stunning and functional
+            websites. I have honed my skills in various programming languages and technologies to bring ideas to life on
+            the digital canvas with a solid foundation in HTML, CSS, and JavaScript, I specialize in bringing designs to
+            life and creating seamless interactions on the web. <br><br>
+            If you're seeking a dedicated and creative frontend developer to bring your vision to life, I would love to
+            connect and discuss how I can contribute to your projects. Let's work together to create impactful and
+            visually stunning websites that leave a lasting impression!
+            <br><br>
+
+            Thank you for taking the time to get to know me. I'm excited about the opportunity to collaborate and
+            contribute to your frontend development needs.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+              <li><span>Web Development</span><br>web app Development</li>
+              <li><span>Office Automation</span><br>MS Word/Excel/Powerpoint</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023</span><br>DISM from Aptech Computer Education Garden,Karachi(In-Process)</li>
+              <li><span>2022</span><br>Matriculation from St.Francis High School,Karachi</li>
+              <li><span>2023</span><br>Intermediate from Govt.Boys Degree College,Karachi(In-Process)</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><br> No experiences</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- services -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Designing</h2>
+          <p>Web design is the art of planning and arranging content on a website so that it can be shared and accessed
+            online with the world.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>A UI UX designer is a professional who identifies new opportunities to create better user experiences.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-house-laptop"></i>
+          <h2>Office Automation </h2>
+          <p>Office automation is a term that describes the different types of computer systems and software that are
+            used to collect digitally.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="worklist">
+        <div class="work">
+          <img src="images/istockphoto-1371009338-612x612.jpg" alt="">
+          <div class="layer">
+            <h3>32 smiles </h3>
+            <p>This Dental website truly shines as an exceptional platform for dental care. It embodies the perfect
+              balance of informative content.</p>
+            <a href="https://eprojects.azfamtech.com/32smiles/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/2.jpg" alt="">
+          <div class="layer">
+            <h3>My Portfolio</h3>
+            <p>Hello! I'm Ronit, a passionate web developer with a strong desire to create stunning and functional
+              websites.</p>
+            <a href="https://ronitdhera-portfolio.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/pexels-photo-4145196.webp" alt="">
+          <div class="layer">
+            <h3>Educated Pakistan</h3>
+            <p>This is the future of an Educated world and we are proud to say that the future of education is here.</p>
+            <a href="https://educatedpk.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p> <i class="fa-solid fa-paper-plane"></i>ronit2301a@aptechgdn.net</p>
+          <p> <i class="fa-solid fa-square-phone"></i>+923181223761</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/rooniiit"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/istg_rooniit/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/ronithere"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://www.linkedin.com/in/ronit-dhera-868446280/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="images/Ronit (2).pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form >
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message"  rows="6"  placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Sumbit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Ronit. All Rights Reserved 2023 <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+  <script>
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
